@@ -1,5 +1,5 @@
 body{
-    background-image: jez.webp;
+    background-image: url("jez.webp");
 }
 .nav_menu{
     background-color: #000000;    
