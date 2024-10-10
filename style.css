@@ -15,7 +15,7 @@ body{
     padding-right: 10%;
 }
 
-.nav_menu_logo{
+.nav_menu h2 a{
     color: #FF0000;
     font-size: 40px;
     transition: .4s;
