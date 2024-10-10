@@ -4,8 +4,6 @@ body{
     list-style: none;
     background-color: #000000;
     font-family: "Josefin Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 .nav_menu{
     display: flex;
@@ -15,6 +13,8 @@ body{
     padding-bottom: 20px;
     padding-left: 10%;
     padding-right: 10%;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .nav_menu h2 a{
@@ -68,10 +68,24 @@ body{
 main{
     color: #FFFFFF;
     padding: 0px 1%;
-    flex: 1;
 }
-footer {
-    background-color: #f1f1f1;
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
     text-align: center;
     padding: 10px 0;
+    color: #FF0000;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #FF0000;
+}
+
+footer p a:hover{
+    color: #FFFFFF;
+    transition: .3s;
 }
