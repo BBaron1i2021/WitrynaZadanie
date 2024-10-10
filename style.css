@@ -21,10 +21,13 @@ body{
     transition: .4s;
     cursor: default;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .nav_menu_logo:hover{
     transform: scale(1.2);
+    color: #FFFFFF;
+    transition: .3s;
 }
 
 .nav_menu ul li{
