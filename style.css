@@ -4,6 +4,8 @@ body{
     list-style: none;
     background-color: #000000;
     font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .nav_menu{
     display: flex;
@@ -66,4 +68,10 @@ body{
 main{
     color: #FFFFFF;
     padding: 0px 1%;
+    flex: 1;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
 }
